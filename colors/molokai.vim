@@ -173,7 +173,8 @@ if &t_Co > 255
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi keyword         ctermfg=161               cterm=bold
-   hi Label           ctermfg=229               cterm=none
+   "hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=229               cterm=bold
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
@@ -214,8 +215,8 @@ if &t_Co > 255
    hi Title           ctermfg=166
    hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
-   hi Typedef         ctermfg=81
-   hi Type            ctermfg=81                cterm=none
+   hi Typedef         ctermfg=81                cterm=bold
+   hi Type            ctermfg=81                cterm=bold
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
@@ -237,9 +238,9 @@ if &t_Co > 255
        hi CursorLine               ctermbg=236   cterm=none
        hi CursorLineNr ctermfg=208               cterm=none
 
-       hi Boolean         ctermfg=141
+       hi Boolean         ctermfg=141               cterm=bold
        hi Character       ctermfg=222
-       hi Number          ctermfg=141
+       hi Number          ctermfg=141               cterm=bold
        hi String          ctermfg=222
        hi Conditional     ctermfg=197               cterm=bold
        hi Constant        ctermfg=141               cterm=bold
