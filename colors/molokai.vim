@@ -27,9 +27,9 @@ else
 endif
 
 
-hi Boolean         guifg=#AE81FF
+hi Boolean         guifg=#AE81FF               gui=bold
 hi Character       guifg=#E6DB74
-hi Number          guifg=#AE81FF
+hi Number          guifg=#AE81FF               gui=bold
 hi String          guifg=#E6DB74
 hi Conditional     guifg=#F92672               gui=bold
 hi Constant        guifg=#AE81FF               gui=bold
